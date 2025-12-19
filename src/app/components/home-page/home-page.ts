@@ -203,7 +203,7 @@ export class HomePageComponent implements OnInit {
   }
   
   downloadCV() {
-    const cvUrl = 'assets/cv.pdf';
+    const cvUrl = 'assets/new-cv.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'Stanley-Otieno-CV.pdf';
